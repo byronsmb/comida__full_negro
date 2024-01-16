@@ -69,7 +69,6 @@ class _MainPageState extends State<MainPage> {
                     Text(
                       'Bienvenido',
                       style: Theme.of(context).textTheme.bodyLarge!.copyWith(
-                            //fontSize: 30,
                             fontSize: screenHeight * 0.035,
                             color: Theme.of(context)
                                 .colorScheme
