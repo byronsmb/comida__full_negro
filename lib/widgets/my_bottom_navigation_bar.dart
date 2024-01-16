@@ -52,21 +52,18 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
             BottomNavigationBarItem(
               icon: Icon(
                 Icons.home,
-                //size: screenHeight * 0.029,
               ),
               label: "Home",
             ),
             BottomNavigationBarItem(
               icon: Icon(
                 Icons.shopping_cart_outlined,
-                //size: screenHeight * 0.029,
               ),
               label: "Carrito",
             ),
             BottomNavigationBarItem(
               icon: Icon(
                 Icons.settings,
-                //size: screenHeight * 0.029,
               ),
               label: "Settings",
             ),
