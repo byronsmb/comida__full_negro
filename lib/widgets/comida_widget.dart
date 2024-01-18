@@ -70,12 +70,11 @@ class _ComidaWidgetState extends State<ComidaWidget> {
                   borderRadius: BorderRadius.circular(35),
                 ),
                 child: Stack(
-                  //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Positioned(
                       top: 5,
                       child: Padding(
-                        padding: EdgeInsets.symmetric(horizontal: 20),
+                        padding: const EdgeInsets.symmetric(horizontal: 20),
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
@@ -122,7 +121,6 @@ class _ComidaWidgetState extends State<ComidaWidget> {
                                 widget.comidaFiltrada[index].imagenUrl,
                                 width: 130,
                                 // MediaQuery.of(context).size.width * 0.34,
-
                                 height: 140,
                                 //MediaQuery.of(context).size.height *0.16,
                               ),
