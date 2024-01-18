@@ -93,9 +93,7 @@ class _ComidaWidgetState extends State<ComidaWidget> {
                       child: Stack(
                         children: [
                           Container(
-                            //width: 180,
                             height: 160,
-                            //MediaQuery.of(context).size.width * 0.46,
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
                               boxShadow: [
@@ -170,12 +168,11 @@ class _ComidaWidgetState extends State<ComidaWidget> {
         options: CarouselOptions(
           height: MediaQuery.of(context).size.height * 0.34, //300.0,
           initialPage: widget.initialPage,
-
           enlargeCenterPage: true,
           //aspectRatio: 16 / 5,
           autoPlayCurve: Curves.fastOutSlowIn,
           enableInfiniteScroll: false,
-          autoPlayAnimationDuration: Duration(milliseconds: 800),
+          autoPlayAnimationDuration: const Duration(milliseconds: 800),
           viewportFraction: 0.5,
           // onPageChanged: (index, reason) {
           //   setState(() {
