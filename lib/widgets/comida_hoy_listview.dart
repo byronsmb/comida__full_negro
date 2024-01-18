@@ -46,7 +46,7 @@ class ComidaHoyListview extends StatelessWidget {
                 decoration: BoxDecoration(
                   //color: Colors.red,
                   borderRadius: BorderRadius.circular(30),
-                  gradient: LinearGradient(
+                  gradient: const LinearGradient(
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
@@ -60,7 +60,7 @@ class ComidaHoyListview extends StatelessWidget {
                       color: Colors.white.withOpacity(0.1),
                       spreadRadius: 1,
                       blurRadius: 1,
-                      offset: Offset(2, 2),
+                      offset: const Offset(2, 2),
                     ),
                   ],
                 ),
