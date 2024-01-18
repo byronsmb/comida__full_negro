@@ -69,8 +69,6 @@ class _ComidaWidgetState extends State<ComidaWidget> {
                   //color: Colors.amber,
                   borderRadius: BorderRadius.circular(35),
                 ),
-                //width: 250,
-                //child: Image.asset('assets/images/platoN1.png'),
                 child: Stack(
                   //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
