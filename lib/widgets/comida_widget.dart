@@ -135,7 +135,7 @@ class _ComidaWidgetState extends State<ComidaWidget> {
                       //width: 185,
                       width: MediaQuery.of(context).size.width * 0.45,
                       child: Padding(
-                        padding: EdgeInsets.symmetric(horizontal: 5),
+                        padding: const EdgeInsets.symmetric(horizontal: 5),
                         child: Align(
                           alignment: Alignment.center,
                           child: Column(
@@ -152,7 +152,7 @@ class _ComidaWidgetState extends State<ComidaWidget> {
                                       color: Colors.white,
                                     ),
                               ),
-                              Icon(
+                              const Icon(
                                 Icons.add,
                                 size: 18,
                               ),
