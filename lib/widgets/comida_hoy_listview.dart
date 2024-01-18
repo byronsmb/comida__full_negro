@@ -23,7 +23,6 @@ class ComidaHoyListview extends StatelessWidget {
       width: screenWidth / 1.1,
       child: ListView.builder(
         itemCount: comidasdelDia.length,
-        //shrinkWrap: 2,
         itemBuilder: (context, index) {
           return InkWell(
             onTap: () {
