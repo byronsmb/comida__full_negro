@@ -63,7 +63,6 @@ class ComidaHoyListview extends StatelessWidget {
                   ],
                 ),
                 //shadowColor: Colors.white.withOpacity(0.3),
-                //elevation: 3,
                 child: Stack(
                   children: [
                     Row(
