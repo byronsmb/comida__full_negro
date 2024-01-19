@@ -129,8 +129,6 @@ class _ComidaWidgetState extends State<ComidaWidget> {
                     ),
                     Positioned(
                       bottom: 2,
-                      //left: 5,
-                      //width: 185,
                       width: MediaQuery.of(context).size.width * 0.45,
                       child: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 5),
