@@ -17,7 +17,6 @@ class ComidaHoyListview extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      //padding: EdgeInsets.symmetric(horizontal: 10),
       //color: Colors.amber,
       height: screenHeight / 5.8,
       width: screenWidth / 1.1,
