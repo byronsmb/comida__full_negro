@@ -40,7 +40,6 @@ class _MainPageState extends State<MainPage> {
 
     return Scaffold(
       //backgroundColor: Colors.grey,
-
       body: Container(
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
@@ -88,7 +87,6 @@ class _MainPageState extends State<MainPage> {
                       ),
                 ),
                 SizedBox(height: MediaQuery.of(context).size.height * 0.03),
-
                 Container(
                   width: screenWidth * 0.88,
                   height: screenHeight * 0.07,
