@@ -47,8 +47,8 @@ class _DetalleComidaState extends State<DetalleComida> {
                 child: Row(
                   children: [
                     const SizedBox(width: 10),
-                    Icon(Icons.arrow_circle_left_outlined),
-                    SizedBox(width: 10),
+                    const Icon(Icons.arrow_circle_left_outlined),
+                    const SizedBox(width: 10),
                     Text(
                       'Regresar',
                       style: Theme.of(context).textTheme.bodyMedium!.copyWith(
@@ -155,7 +155,7 @@ class _DetalleComidaState extends State<DetalleComida> {
                                 }
                               });
                             },
-                            style: ButtonStyle(
+                            style: const ButtonStyle(
                               backgroundColor: MaterialStatePropertyAll(
                                 Color.fromARGB(255, 223, 191, 94),
                               ),
