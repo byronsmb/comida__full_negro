@@ -45,7 +45,7 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
               widget.currentIndexBottom = index;
             });
           },
-          selectedItemColor: Color.fromARGB(255, 223, 191, 94),
+          selectedItemColor: const Color.fromARGB(255, 223, 191, 94),
           unselectedItemColor: Colors.white,
           //type: BottomNavigationBarType.fixed,
           items: const [
