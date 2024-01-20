@@ -35,9 +35,9 @@ class ComidaHoyListview extends StatelessWidget {
               );
             },
             child: Padding(
-              padding: EdgeInsets.symmetric(vertical: 5.0),
+              padding: const EdgeInsets.symmetric(vertical: 5.0),
               child: Container(
-                padding: EdgeInsets.symmetric(horizontal: 10),
+                padding: const EdgeInsets.symmetric(horizontal: 10),
 
                 height: screenHeight / 15,
 
