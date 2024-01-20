@@ -13,7 +13,6 @@ class _DetalleComidaState extends State<DetalleComida> {
   double precio = 0;
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     precio = widget.comidaActual.precio;
   }
@@ -47,7 +46,7 @@ class _DetalleComidaState extends State<DetalleComida> {
                 },
                 child: Row(
                   children: [
-                    SizedBox(width: 10),
+                    const SizedBox(width: 10),
                     Icon(Icons.arrow_circle_left_outlined),
                     SizedBox(width: 10),
                     Text(
