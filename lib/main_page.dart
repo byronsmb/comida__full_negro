@@ -159,7 +159,6 @@ class _MainPageState extends State<MainPage> {
                   initialPage: initialPage,
                   carouselController: _carouselController,
                 ),
-                //SizedBox(height: MediaQuery.of(context).size.height * 0.035),
                 Padding(
                   padding: const EdgeInsets.only(left: 10),
                   child: Align(
