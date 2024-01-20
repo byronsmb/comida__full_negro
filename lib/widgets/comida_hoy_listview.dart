@@ -98,7 +98,7 @@ class ComidaHoyListview extends StatelessWidget {
                                   ),
                         ),
                         SizedBox(width: screenWidth * 0.03),
-                        Icon(Icons.add_circle_outline_rounded),
+                        const Icon(Icons.add_circle_outline_rounded),
                       ],
                     ),
                     Positioned(
