@@ -160,12 +160,12 @@ class _DetalleComidaState extends State<DetalleComida> {
                                 Color.fromARGB(255, 223, 191, 94),
                               ),
                             ),
-                            icon: Icon(
+                            icon: const Icon(
                               Icons.remove,
                               color: Colors.black,
                             ),
                           ),
-                          SizedBox(width: 10),
+                          const SizedBox(width: 10),
                           Text(
                             '$cantidadPlatos',
                             style: Theme.of(context)
