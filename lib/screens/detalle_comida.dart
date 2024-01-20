@@ -189,7 +189,7 @@ class _DetalleComidaState extends State<DetalleComida> {
                               backgroundColor:
                                   const Color.fromARGB(255, 223, 191, 94),
                             ),
-                            icon: Icon(
+                            icon: const Icon(
                               Icons.add,
                               color: Colors.black,
                             ),
@@ -207,7 +207,7 @@ class _DetalleComidaState extends State<DetalleComida> {
                           ScaffoldMessenger.of(context).clearSnackBars();
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(
-                              content: Text(
+                              content: const Text(
                                 'Ordenado',
                                 style: TextStyle(
                                   color: Colors.white,
