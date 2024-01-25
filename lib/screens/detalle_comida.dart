@@ -95,7 +95,7 @@ class _DetalleComidaState extends State<DetalleComida> {
                         height: 250,
                         width: 250,
                         // MediaQuery.of(context).size.width * 0.34,
-                        //height: 140,
+
                         //MediaQuery.of(context).size.height *0.16,
                       ),
                     ),
