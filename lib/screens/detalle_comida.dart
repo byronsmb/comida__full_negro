@@ -80,7 +80,6 @@ class _DetalleComidaState extends State<DetalleComida> {
                       scale: 1.35,
                       child: Image.asset(
                         'assets/images/platoN1.png',
-                        //height: MediaQuery.of(context).size.height * 0.8,
                         //fit: BoxFit.cover,
                       ),
                     ),
