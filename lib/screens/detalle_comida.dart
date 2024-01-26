@@ -119,7 +119,6 @@ class _DetalleComidaState extends State<DetalleComida> {
               ),
               SizedBox(height: screenHeight * 0.02),
               Container(
-                //color: Colors.red,
                 width: screenWidth * 0.8,
                 height: MediaQuery.of(context).size.height * 0.16,
                 child: Text(
