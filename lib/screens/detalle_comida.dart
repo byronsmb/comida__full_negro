@@ -133,9 +133,7 @@ class _DetalleComidaState extends State<DetalleComida> {
               ),
               Expanded(
                 child: Row(
-                  //mainAxisAlignment: MainAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-
                   children: [
                     Container(
                       child: Row(
