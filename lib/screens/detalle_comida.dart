@@ -169,7 +169,7 @@ class _DetalleComidaState extends State<DetalleComida> {
                                   fontSize: 20,
                                 ),
                           ),
-                          SizedBox(width: 10),
+                          const SizedBox(width: 10),
                           IconButton(
                             onPressed: () {
                               setState(() {
@@ -218,7 +218,7 @@ class _DetalleComidaState extends State<DetalleComida> {
                       ),
                       child: Text(
                         'ORDENAR POR \$$precio',
-                        style: TextStyle(
+                        style: const TextStyle(
                           color: Colors.black,
                         ),
                       ),
