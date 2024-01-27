@@ -131,7 +131,6 @@ class _DetalleComidaState extends State<DetalleComida> {
                   overflow: TextOverflow.ellipsis,
                 ),
               ),
-              //SizedBox(height: screenHeight * 0.1),
               Expanded(
                 child: Row(
                   //mainAxisAlignment: MainAxisAlignment.center,
