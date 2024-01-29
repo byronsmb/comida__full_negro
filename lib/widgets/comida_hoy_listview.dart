@@ -74,7 +74,7 @@ class ComidaHoyListview extends StatelessWidget {
                           height: screenHeight / 15.8,
                         ),
                         const SizedBox(width: 10),
-                        Container(
+                        SizedBox(
                           //color: Colors.amber,
                           width: screenWidth * 0.46,
                           child: Text(
