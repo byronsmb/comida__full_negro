@@ -63,8 +63,6 @@ class _DetalleComidaState extends State<DetalleComida> {
                 children: [
                   Container(
                     width: 300,
-
-                    //MediaQuery.of(context).size.width * 0.46,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       boxShadow: [
