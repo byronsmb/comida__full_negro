@@ -75,7 +75,7 @@ class ComidaHoyListview extends StatelessWidget {
                         ),
                         const SizedBox(width: 10),
                         SizedBox(
-                          //color: Colors.amber,
+                          
                           width: screenWidth * 0.46,
                           child: Text(
                             comidasdelDia[index].nombre,
