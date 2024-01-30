@@ -38,9 +38,7 @@ class ComidaHoyListview extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 5.0),
               child: Container(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
-
                 height: screenHeight / 15,
-
                 decoration: BoxDecoration(
                   //color: Colors.red,
                   borderRadius: BorderRadius.circular(30),
@@ -62,7 +60,6 @@ class ComidaHoyListview extends StatelessWidget {
                     ),
                   ],
                 ),
-                //shadowColor: Colors.white.withOpacity(0.3),
                 child: Stack(
                   children: [
                     Row(
