@@ -66,7 +66,6 @@ class _ComidaWidgetState extends State<ComidaWidget> {
                       offset: const Offset(-4, -4),
                     ),
                   ],
-                  //color: Colors.amber,
                   borderRadius: BorderRadius.circular(35),
                 ),
                 child: Stack(
