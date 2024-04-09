@@ -23,7 +23,6 @@ class _ComidaWidgetState extends State<ComidaWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      //height: 350,
       height: MediaQuery.of(context).size.height * 0.395,
       child: CarouselSlider.builder(
         carouselController: widget.carouselController,
