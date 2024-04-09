@@ -25,7 +25,6 @@ class _ComidaWidgetState extends State<ComidaWidget> {
     return Container(
       //height: 350,
       height: MediaQuery.of(context).size.height * 0.395,
-      //color: Colors.amber,
       child: CarouselSlider.builder(
         carouselController: widget.carouselController,
         itemCount: widget.comidaFiltrada.length,
